@@ -5,6 +5,7 @@ public class Singleton {
     private static Singleton instance;
 
     private Singleton() {
+    	System.out.println("Singleton object creation...");
     }
 
     public static Singleton getInstance() {
